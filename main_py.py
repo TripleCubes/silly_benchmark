@@ -19,7 +19,7 @@ def get_the_thing(n):
 prev = time.time()
 
 count = 0
-for i in range(10, 10000000):
+for i in range(0, 10000000):
 	if get_the_thing(i) == 'st':
 		count += 1
 

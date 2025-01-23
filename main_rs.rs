@@ -8,7 +8,7 @@ fn measure() {
 	let prev = SystemTime::now();
 
 	let mut count = 0;
-	for i in 10..10000000 {
+	for i in 0..10000000 {
 		if get_the_thing(i) == "st" {
 			count += 1;
 		}

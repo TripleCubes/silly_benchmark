@@ -16,7 +16,7 @@ function get_the_thing(n) {
 let prev = Date.now();
 
 let count = 0;
-for (let i = 10; i < 10000000; i++) {
+for (let i = 0; i < 10000000; i++) {
 	if (get_the_thing(i) == 'st') {
 		count++;
 	}

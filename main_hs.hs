@@ -5,7 +5,7 @@ main = do
 
 	let count = length
 	          $ filter (\s -> s == "st")
-	          $ map get_the_thing [10 .. 10000000 - 1]
+	          $ map get_the_thing [0 .. 10000000 - 1]
 
 	putStrLn $ "count: " ++ show count
 

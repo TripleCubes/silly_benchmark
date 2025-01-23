@@ -22,7 +22,7 @@ int main() {
 	clock_t prev = clock();
 
 	int count = 0;
-	for (int i = 10; i < 10000000; i++) {
+	for (int i = 0; i < 10000000; i++) {
 		if (strcmp(get_the_thing(i), "st") == 0) {
 			count++;
 		}

@@ -16,7 +16,7 @@ end
 local prev = os.clock()
 
 local count = 0
-for i = 10, 10000000 do
+for i = 0, 10000000 - 1 do
 	if get_the_thing(i) == 'st' then
 		count = count + 1
 	end
