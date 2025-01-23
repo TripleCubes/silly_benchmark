@@ -2,7 +2,7 @@ import time as time
 
 def get_the_thing(n):
 	n1 = n % 100
-	if n >= 10 and n <= 20:
+	if n1 >= 10 and n1 <= 20:
 		return 'th'
 
 	nlast = n % 10
